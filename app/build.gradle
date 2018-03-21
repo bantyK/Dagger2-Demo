@@ -35,7 +35,15 @@ dependencies {
     implementation 'com.google.dagger:dagger:2.13'
     annotationProcessor 'com.google.dagger:dagger-compiler:2.13'
 
+    //picasso image loading library
     implementation 'com.squareup.picasso:picasso:2.71828'
 
+    //recycler view
     implementation 'com.android.support:recyclerview-v7:27.1.0'
+
+    //mocking support for testing
+    testImplementation "org.powermock:powermock-module-junit4:1.6.4"
+    testImplementation "org.powermock:powermock-module-junit4-rule:1.6.4"
+    testImplementation "org.powermock:powermock-api-mockito:1.6.4"
+    testImplementation "org.powermock:powermock-classloading-xstream:1.6.4"
 }
